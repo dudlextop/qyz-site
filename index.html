@@ -1,24 +1,93 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>QyzmetAI</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QyzmetAI — Stealth</title>
+  <meta name="description" content="QyzmetAI — an intelligent workspace for public-sector workflows. Currently in stealth." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%23004aad%22/><text x=%2250%25%22 y=%2258%25%22 text-anchor=%22middle%22 font-size=%2272%22 fill=%22white%22 font-family=%22Arial,Helvetica,sans-serif%22>Q</text></svg>">
+  <meta property="og:title" content="QyzmetAI — Stealth" />
+  <meta property="og:description" content="We are building an intelligent assistant for government workflows. In stealth." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://qyzmet.xyz" />
 </head>
 <body>
-  <header>
-    <h1>QyzmetAI</h1>
-    <p>
-      We are building an intelligent assistant for government employees.<br>
-      QyzmetAI helps draft, check, and explain documents — faster, safer, and easier.
-    </p>
-    <p><em>This startup is currently in stealth mode.</em></p>
-    <a class="button" href="mailto:dogs@qyzmet.xyz">Contact us</a>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">Q</div>
+        <span class="brand-name">QyzmetAI</span>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#contact" class="button ghost">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <footer style="margin-top:40px; padding:20px; background:rgba(0,0,0,0.3); font-size:14px;">
-    <p>© 2025 — Created by the DOGS team</p>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="badge-row">
+          <span class="badge">Stealth mode</span>
+          <span class="badge neutral">GovTech</span>
+        </div>
+        <h1>Intelligent workspace for public-sector documents</h1>
+        <p class="lead">
+          We’re building a focused assistant for government teams: draft, check and explain documents — faster and with more confidence.
+        </p>
+        <div class="cta">
+          <a class="button" href="mailto:dogs@qyzmet.xyz">Request intro</a>
+          <a class="button ghost" href="#about">Learn more</a>
+        </div>
+
+        <p class="meta-note">
+          This startup is currently operating in stealth. We share only high-level information.
+        </p>
+      </div>
+      <div class="hero-gradient" aria-hidden="true"></div>
+    </section>
+
+    <!-- VALUE CARDS (без деталей) -->
+    <section class="cards" id="about">
+      <div class="container grid">
+        <article class="card">
+          <h3>Built for workflows</h3>
+          <p>Designed around how public services actually work — from first draft to final approval.</p>
+        </article>
+        <article class="card">
+          <h3>Trust & clarity</h3>
+          <p>Focus on correctness and explanations to support accountable decision-making.</p>
+        </article>
+        <article class="card">
+          <h3>Practical integration</h3>
+          <p>Lightweight footprint, simple rollout. Details under NDA for pilot partners.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>Interested in pilots or a brief intro? Drop us a line.</p>
+        <a class="button large" href="mailto:dogs@qyzmet.xyz">dogs@qyzmet.xyz</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> — Created by the <strong>DOGS</strong> team</div>
+      <div class="foot-right">
+        <span class="dot"></span>
+        <span class="foot-note">QyzmetAI — in stealth</span>
+      </div>
+    </div>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
